@@ -1,14 +1,14 @@
-it("Si hacemos obtenerChatStatus(['Ada'])  debería retornar 'Ada está conectada' ", function() {
-let resultado = obtenerChatStatus(['Ada'])
-assert.deepEqual(resultado,'Ada está conectada' ,`obtenerChatStatus(['Ada'])  debería retornar 'Ada está conectada' pero fue ${resultado}`);
+it("Si hacemos obtenerChatStatus(['Ale'])  debería retornar 'Ale está conectado' ", function() {
+let resultado = obtenerChatStatus(['Ale'])
+assert.deepEqual(resultado,'Ale está conectado' ,`obtenerChatStatus(['Ale'])  debería retornar 'Ale está conectado' pero fue ${resultado}`);
 })
 
-it("Si hacemos obtenerChatStatus(['Ada', 'Grace'])  debería retornar 'Ada y Grace estan conectadas' ", function() {
-let resultado = obtenerChatStatus(['Ada', 'Grace'])
-assert.deepEqual(resultado,'Ada y Grace están conectadas' ,`obtenerChatStatus(['Ada', 'Grace'])  debería retornar 'Ada y Grace están conectadas' pero fue ${resultado}`);
+it("Si hacemos obtenerChatStatus(['Ale', 'Gaby'])  debería retornar 'Ale y Gaby están conectados' ", function() {
+let resultado = obtenerChatStatus(['Ale', 'Gaby'])
+assert.deepEqual(resultado,'Ale y Gaby están conectados' ,`obtenerChatStatus(['Ale', 'Gaby'])  debería retornar 'Ale y Gaby están conectados' pero fue ${resultado}`);
 })
 
-it("Si hacemos obtenerChatStatus(['Ada', 'Grace', 'Marie'])  debería retornar 'Ada, Grace y 1 persona(s) más están conectadas' ", function() {
-let resultado = obtenerChatStatus(['Ada', 'Grace', 'Marie'])
-assert.deepEqual(resultado,'Ada, Grace y 1 persona(s) más están conectadas' ,`obtenerChatStatus(['Ada', 'Grace', 'Marie'])  debería retornar 'Ada, Grace y 1 persona(s) más están conectadas' pero fue ${resultado}`);
+it("Si hacemos obtenerChatStatus(['Ale', 'Gaby', 'Mar'])  debería retornar 'Ale, Gaby y 1 persona(s) más están conectadas' ", function() {
+let resultado = obtenerChatStatus(['Ale', 'Gaby', 'Mar'])
+assert.deepEqual(resultado,'Ale, Gaby y 1 persona(s) más están conectadas' ,`obtenerChatStatus(['Ale', 'Gaby', 'Mar'])  debería retornar 'Ale, Gaby y 1 persona(s) más están conectadas' pero fue ${resultado}`);
 })

@@ -1,14 +1,14 @@
-> Definí una función `obtenerChatStatus` que reciba como argumento un array de strings `usuarias` y devuelva un string con el status del chat. Las reglas son:
+> Definí una función `obtenerChatStatus` que reciba como argumento un array de strings `usuarios` y devuelva un string con el status del chat. Las reglas son:
 >
-- Para una usuaria, debe mostrar: `NOMBRE_USUARIA_1 está conectada`
-- Para dos usuarias, debe mostrar: `NOMBRE_USUARIA_1 y NOMBRE_USUARIA_2 + están conectadas`
-- Para más de dos usuarias, debe mostrar: `NOMBRE_USUARIA_1, NOMBRE_USUARIA_2 y X persona(s) más están conectadas`
+- Para un usuario, debe mostrar: `NOMBRE_USUARIO_1 está conectado`
+- Para dos usuarios, debe mostrar: `NOMBRE_USUARIO_1 y NOMBRE_USUARIO_2 + están conectados`
+- Para más de dos usuarios, debe mostrar: `NOMBRE_USUARIO_1, NOMBRE_USUARIO_2 y X persona(s) más están conectadas`
 >
 ```javascript
-ム obtenerChatStatus(['Ada'])
-'Ada está conectada'
-ム obtenerChatStatus(['Ada', 'Grace'])
-'Ada y Grace están conectadas'
-ム obtenerChatStatus(['Ada', 'Grace', 'Marie'])
-'Ada, Grace y 1 persona(s) más están conectadas'
+ム obtenerChatStatus(['Ale'])
+'Ale está conectado'
+ム obtenerChatStatus(['Ale', 'Gaby'])
+'Ale y Gaby están conectados'
+ム obtenerChatStatus(['Ale', 'Gaby', 'Mar'])
+'Ale, Gaby y 1 persona(s) más están conectadas'
 ```
