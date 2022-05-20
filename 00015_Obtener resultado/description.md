@@ -13,9 +13,9 @@ const puntajesB = [4, 6, 2]
 > 
 ```javascript
 ム obtenerResultado('Ale', 'Gaby', [4, 4, 4], [1, 2, 3])
-Ale
+'Ale'
 ム obtenerResultado('Ale', 'Gaby', [3, 5, 5, 7], [4, 1, 2, 9])
-Empate
+'Empate'
 ム obtenerResultado('Ale', 'Gaby', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3])
-Gaby
+'Gaby'
 ```
