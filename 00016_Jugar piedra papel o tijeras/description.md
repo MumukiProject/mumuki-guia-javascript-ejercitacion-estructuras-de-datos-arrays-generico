@@ -13,14 +13,14 @@ const jugadasB = ['papel', 'tijera', 'tijera']
 >
 ```javascript
 ム jugarPiedraPapelTijeras('Ale', 'Gaby', ['tijera'], ['piedra']) 
-Gaby
+'Gaby'
 >
 ム jugarPiedraPapelTijeras('Ale', 'Gaby', ['papel'], ['papel']) 
-Empate
+'Empate'
 >
 ム jugarPiedraPapelTijeras('Ale','Gaby',
   ['piedra', 'papel', 'papel', 'piedra', 'tijera'],
   ['papel', 'piedra', 'tijera', 'tijera', 'papel']
 )
-Ale
+'Ale'
 ```
