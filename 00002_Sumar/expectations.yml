@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:sumar
+  inspection: DeclaresFunction:sumarCaracteres

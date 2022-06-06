@@ -1,6 +1,6 @@
-> Definí una función `sumar` que reciba como argumento un array de números `numeros` y devuelva la suma de ellos. Ejemplo:
+> Definí una función `sumarCaracteres` que reciba como argumento un array de strings  y devuelva la suma de la cantidad de caracteres de cada uno. Ejemplo:
 >
 ```javascript
-ム sumar([5, 7, 10, 12, 24])
-58
+ム sumarCaracteres(["hola", "qué", "tal", "cómo", "estás"])
+19 
 ```

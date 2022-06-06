@@ -1,9 +1,9 @@
-it("Si hacemos sumar([5, 7, 10, 12, 24]) debería retornar 58", function() {
-let resultado = sumar([5, 7, 10, 12, 24])
-assert.equal(resultado, 58,`sumar([5, 7, 10, 12, 24]) debería retornar 58 pero fue ${resultado}`);
+it("Si hacemos sumarCaracteres(["hola", "qué", "tal", "cómo", "estás"]) debería retornar 19", function() {
+let resultado = sumarCaracteres(["hola", "qué", "tal", "cómo", "estás"])
+assert.equal(resultado, 19,`sumarCaracteres(["hola", "qué", "tal", "cómo", "estás"]) debería retornar 19 pero fue ${resultado}`);
 })
 
-it("Si hacemos sumar([19, 27, 24, 8, 9, 15, 12]) debería retornar 114", function() {
-let resultado = sumar([19, 27, 24, 8, 9, 15, 12])
-assert.equal(resultado, 114,`sumar([19, 27, 24, 8, 9, 15, 12]) debería retornar 114 pero fue ${resultado}`);
+it("Si hacemos sumarCaracteres(["hola", "vamos", "a", "programar", "un", "poco"]) debería retornar 25", function() {
+let resultado = sumarCaracteres(["hola", "vamos", "a", "programar", "un", "poco"])
+assert.equal(resultado, 25,`sumarCaracteres(["hola", "vamos", "a", "programar", "un", "poco"]) debería retornar 25 pero fue ${resultado}`);
 })
